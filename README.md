@@ -16,12 +16,3 @@ A modern, responsive internship application portal designed for tech companies. 
 * **HTML5:** Semantic structure.
 * **CSS3:** Custom properties, Flexbox, and transitions.
 * **Unsplash API:** High-quality background imagery.
-
-## 📸 Screenshot
-> (Tip: Take a screenshot of your site, upload it to your repo, and link it here!)
-> Example: `![Landing Page Preview](./screenshot.png)`
-
-## 💻 How to Run
-1. Clone the repository:
-   ```bash
-   git clone [https://github.com/your-username/tech-intern-portal.git](https://github.com/your-username/tech-intern-portal.git)
