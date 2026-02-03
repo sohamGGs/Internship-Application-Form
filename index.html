@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechIntern | Internship Portal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">Tech<span>Intern</span></div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#apply">Apply Now</a></li>
+            <li><a href="#about">About Us</a></li>
+        </ul>
+    </nav>
+
+    <section id="home" class="hero-section">
+        <div class="hero-content">
+            <h1>Shape the Future of Tech</h1>
+            <p>Our Summer 2026 Internship Program is now open for applications. Gain real-world experience with industry leaders.</p>
+            <a href="#apply" class="cta-btn">View Openings</a>
+        </div>
+    </section>
+
+    <section id="apply" class="form-section">
+        <div class="form-container">
+            <form action="#success">
+                <h2>Internship Application</h2>
+                <p>Please fill out the details below accurately.</p>
+                <hr>
+
+                <div class="input-row">
+                    <div class="input-group">
+                        <label for="full-name">Full Name</label>
+                        <input type="text" id="full-name" placeholder="Your Name Here!" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" placeholder="abc@example.com" required>
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <label for="position">Interested Track</label>
+                    <select id="position" required>
+                        <option value="" disabled selected>Select a track</option>
+                        <option value="frontend">Frontend Engineering</option>
+                        <option value="data">Data Science</option>
+                        <option value="cyber">Cybersecurity</option>
+                    </select>
+                </div>
+
+                <div class="input-group">
+                    <label for="resume">Resume / Portfolio Link</label>
+                    <input type="url" id="resume" placeholder="https://linkedin.com/in/yourprofile">
+                </div>
+
+                <div class="input-group">
+                    <label for="message">Why TechIntern?</label>
+                    <textarea id="message" rows="3" placeholder="Tell us your motivation..."></textarea>
+                </div>
+
+                <button type="submit" class="submit-btn">Submit Application</button>
+            </form>
+        </div>
+    </section>
+
+    <footer id="about">
+        <p>&copy; 2026 TechIntern Inc. | All Rights Reserved.</p>
+        <p>Questions? Contact us at <strong>careers@techintern.com</strong></p>
+    </footer>
+
+</body>
+</html>
+
+
